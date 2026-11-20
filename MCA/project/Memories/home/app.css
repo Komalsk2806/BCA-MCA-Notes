@@ -1,0 +1,51 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .navbar-logo {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 15px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+  }
+
+  .bg-image {
+    background-image: url("E:/sem2p/frontend/Budgeting.jpg"); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh; /* Ensure the background covers the entire viewport height */
+  }
+  
+  .bg-imageF {
+    background-image: url("E:/sem2p/frontend/Food.jpg"); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: center;
+    min-height: 100vh; /* Ensure the background covers the entire viewport height */
+  }
+  
+  /* Add more styling as needed */
+  
